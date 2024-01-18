@@ -1,0 +1,48 @@
+.header{
+    color: rgb(1, 1, 118);
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.header-left{
+    font-size:30px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding:10px;
+}
+
+img{
+    float:right;
+    width: 50vw;
+    margin-top:50px;
+    z-index: 10;
+}
+
+.main{
+    position: relative;
+}
+
+.objective{
+    font-size:50px;
+    position: absolute;
+    top:300px;
+    left:0px;
+    
+}
+
+.box{
+    background-color: rgb(1, 1, 118);
+    width:70vw;
+    height:20vh;
+    position: absolute;
+    top:350px;
+    left:0px;
+    z-index: -10;
+}
