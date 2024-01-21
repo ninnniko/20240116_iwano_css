@@ -18,6 +18,10 @@ li{
     padding:10px;
 }
 
+a{
+    text-decoration: none;
+}
+
 img{
     float:right;
     width: 50vw;
